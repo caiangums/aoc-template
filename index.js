@@ -1,7 +1,4 @@
-import { solve00 } from '_src';
+import solveAll from '_src';
 
-const solveAll = async () => {
-  await solve00();
-}
+solveAll()
 
-export default solveAll();
