@@ -1,55 +1,52 @@
 # 🎄Advent of Code - Template
 
-> Opinionated template for solving Advent of Code with JS
+> Opinionated template for solving [Advent of Code](https://adventofcode.com/) with JS
 
 ## Usage
 
 Dependencies:
-- NodeJS
-- Yarn (or npm)
+- [NodeJS v16](https://nodejs.org/)
+- [yarn Classic](https://yarnpkg.com/) or [npm](https://www.npmjs.com/)
 
-After creating your repo based on this template you can customize this Readme and the `package.json`. After that you should install all the dependencies
+Tools:
+* [Hygen](https://www.hygen.io/)
+* [Jest](https://jestjs.io/)
+* [ESLint](https://eslint.org/)
+* [Prettier](https://prettier.io/)
+
+Customize your repo based on this template changing this Readme and the `package.json`. After that you should install all the dependencies
 
 ```sh
-$ yarn
+yarn
 ```
 
-Create your daily solutions based on the [day 00](./src/00) directory and add them to the main [`index.js`](./src/index.js):
+## Creating Solutions
 
-```js
-import solve00 from './00'
-import solve01 from './01' // <- here
+Solutions can be created with the `yarn solution` script passing the number of the day as two-digit:
 
-const solveAll = async () => {
-  await solve00()
-  await solve01() // <- and here
-}
-
-export default solveAll
+```sh
+yarn solution 01
 ```
 
-The puzzle inputs are not going to be added, as it changes based on user.
+The puzzle inputs are unique per user and not going to be tracked. Update your `input.in` file with your input from [Advent of Code website](https://adventofcode.com/).
 
 ## Running
 
 Run and see solutions
 ```sh
-$ yarn solve
+yarn solve
 ```
 
-See tests (wth Jest)
+Run your tests (wth Jest)
 ```sh
-$ yarn test
+yarn test
 ```
 
 Lint your code
 ```sh
-$ yarn lint
+yarn lint
 ```
 
-## Tests
+## Credits
 
-> under construction
-
-The suggested lib for testing is [Jest](https://jestjs.io/).
-
+This project was created with [this 🎄AoC template](https://github.com/caiangums/aoc-template)
