@@ -1,0 +1,13 @@
+diff --git a/node_modules/hygen/src/context.ts b/node_modules/hygen/src/context.ts
+index 74d8b1a..e6191f0 100644
+--- a/node_modules/hygen/src/context.ts
++++ b/node_modules/hygen/src/context.ts
+@@ -16,7 +16,7 @@ inflection.undasherize = (str) =>
+ 
+ const helpers = {
+   capitalize(string) {
+-    return string.charAt(0).toUpperCase() + string.slice(1)
++    return String(string).charAt(0).toUpperCase() + String(string).slice(1)
+   },
+   inflection,
+   changeCase,
