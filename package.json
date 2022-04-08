@@ -1,6 +1,6 @@
 {
   "name": "aoc-template",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "🎄Advent of Code Template",
   "main": "index.js",
   "repository": "https://github.com/caiangums/aoc-template.git",
@@ -8,7 +8,6 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "postinstall": "patch-package",
     "solve": "babel-node index.js",
     "test": "jest --verbose",
     "lint": "eslint src --fix",
@@ -26,8 +25,6 @@
     "eslint-plugin-prettier": "^4.0.0",
     "hygen": "^6.1.0",
     "jest": "^27.3.1",
-    "patch-package": "^6.4.7",
-    "postinstall-postinstall": "^2.1.0",
     "prettier": "^2.5.0",
     "prettier-eslint": "^13.0.0"
   }

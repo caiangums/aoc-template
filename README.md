@@ -30,8 +30,6 @@ yarn solution 01
 
 The puzzle inputs are unique per user and not going to be tracked. Update your `input.in` file with your input from [Advent of Code website](https://adventofcode.com/).
 
-**Note:** `hygen` has [an issue opened](https://github.com/jondot/hygen/issues/338) and also [a PR opened](https://github.com/jondot/hygen/pull/352) with a correction. If you face an issue locally enter `node_modules/hygen` and run `yarn` and `yarn build:lib`.
-
 ## Running
 
 Run and see solutions
