@@ -11,7 +11,6 @@ export const readFile = (relativePath) =>
     fs.readFile(filePath, 'utf8', (err, data) => {
       if (err) {
         const { code, path } = err
-        console.log('test')
         reject(`readFile() =>\n  file path: ${path}\n  code: ${code}`)
       }
       resolve(data)
