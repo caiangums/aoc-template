@@ -8,16 +8,10 @@ export const solve = (fuel) => {
   console.log('> result 1:', totalKm)
 }
 
-export default async function () {
+export default function () {
   console.log('--- Day 00: Starting the Engines ---')
 
-  let data
-
-  try {
-    data = await readFile('00/input.in')
-  } catch (err) {
-    console.error('Error:', err)
-  }
+  const data = readFile('00/input.in')
 
   const [fuel] = data.split('\n')
   return solve(Number(fuel))

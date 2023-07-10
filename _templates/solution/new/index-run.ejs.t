@@ -5,4 +5,4 @@ skip_if: "  await solve<%= name %>()"
 before: "#run"
 eof_last: false
 ---
-  await solve<%= name %>()
+  solve<%= name %>()

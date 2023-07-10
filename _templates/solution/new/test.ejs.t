@@ -1,12 +1,12 @@
 ---
 to: src/<%= name %>/index.test.js
 ---
-import { myFunc } from '_src/<%= name %>'
+import { solve } from '_src/<%= name %>'
 
 describe('Day <%= name %> | challange name', () => {
-  describe('myFunc', () => {
+  describe('solve', () => {
     it('test functionalities', () => {
-      expect(myFunc).toBeDefined();
+      expect(solve).toBeDefined();
     })
   })
 })

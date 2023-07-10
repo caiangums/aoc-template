@@ -1,9 +1,7 @@
 import solve00 from './00'
 // #import
 
-const solveAll = async () => {
-  await solve00()
+export default function solveAll() {
+  solve00()
   // #run
 }
-
-export default solveAll

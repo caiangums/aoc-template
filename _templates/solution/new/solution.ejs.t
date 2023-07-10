@@ -12,16 +12,10 @@ const solve = (data) => {
   // console.log('> result 2:')
 }
 
-export default async function () {
+export default function () {
   console.log('--- Day <%= name %>: Insert your title HERE ---')
 
-  let data
-
-  try {
-    data = await readFile('<%= name %>/input.in')
-  } catch (err) {
-    console.error('Error:', err)
-  }
+  const data = readFile('<%= name %>/input.in')
 
   return solve(data)
 }
