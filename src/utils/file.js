@@ -8,7 +8,7 @@ export const readFile = (relativePath) => {
   const filePath = buildFilePath(relativePath)
 
   try {
-    return fs.readFileSync(filePath, 'utf8');
+    return fs.readFileSync(filePath, 'utf8')
   } catch (err) {
     throw new Error(`readFile() - file path: ${filePath}\n  ${err}`)
   }
