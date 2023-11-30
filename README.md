@@ -5,7 +5,7 @@
 ## Usage
 
 Dependencies:
-- [NodeJS v16](https://nodejs.org/)
+- [NodeJS >= v16](https://nodejs.org/)
 - [yarn Classic](https://yarnpkg.com/) or [npm](https://www.npmjs.com/)
 
 Tools:
